@@ -2,8 +2,7 @@
 
 <h3>Prerequisites</h3>
 -Git <br>
--Ollama (Run through the .exe file, the terminal install is so much more work)<br>
-(These are in the downloads folder)<br>
+-Ollama<br>
 
 <h3>Instructions</h3>
 <h4>1. Install Ollama</h4>

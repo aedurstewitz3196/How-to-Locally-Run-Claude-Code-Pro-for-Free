@@ -28,10 +28,10 @@ You need a model designed for coding to handle Claude's agentic tasks. Qwen 2.5 
 By default, the Claude CLI tries to connect to Anthropic's servers. You must tell it to look at your local Ollama server (localhost:11434) instead. To make this permanent so you don't have to re-type it every time.<br>
 <ul>
   <li>Run: "notepad $PROFILE" in Windows Powershell</li>
-  <li>Paste these three lines at the bottom of the file:
-    $env:ANTHROPIC_BASE_URL = "http://localhost:11434"
-    $env:ANTHROPIC_AUTH_TOKEN = "ollama"
-    $env:ANTHROPIC_API_KEY = "ollama"</li>
+  <li>Paste these three lines at the bottom of the file:<br>
+    $env:ANTHROPIC_BASE_URL = "http://localhost:11434"<br>
+    $env:ANTHROPIC_AUTH_TOKEN = "ollama"<br>
+    $env:ANTHROPIC_API_KEY = "ollama"</li><br>
   <li>Save, exit, and restart Windows PowerShell.</li>
 </ul>
 

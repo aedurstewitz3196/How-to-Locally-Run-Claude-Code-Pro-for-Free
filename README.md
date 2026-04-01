@@ -19,7 +19,7 @@
   <li>Click "OK" on everything and restart Windows Powershell</li>
 </ul>
 
-<h4>3. Download a Coding Model</h4><br>
+<h4>3. Download a Coding Model</h4>
 You need a model designed for coding to handle Claude's agentic tasks. Qwen 2.5 Coder (specifically the 7B or 32B versions) is the current gold standard for this setup.<br>
 <ul>
   <li>Pull the Model: "ollama pull qwen2.5-coder:7b"</li>

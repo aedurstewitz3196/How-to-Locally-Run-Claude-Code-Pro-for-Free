@@ -31,7 +31,7 @@ By default, the Claude CLI tries to connect to Anthropic's servers. You must tel
   <li>Paste these three lines at the bottom of the file:<br>
     $env:ANTHROPIC_BASE_URL = "http://localhost:11434"<br>
     $env:ANTHROPIC_AUTH_TOKEN = "ollama"<br>
-    $env:ANTHROPIC_API_KEY = "ollama"</li><br>
+    $env:ANTHROPIC_API_KEY = "ollama"</li>
   <li>Save, exit, and restart Windows PowerShell.</li>
 </ul>
 
